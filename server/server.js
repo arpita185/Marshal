@@ -34,6 +34,7 @@ app.use(express.json());
 // Temporary storage (instead of MongoDB)
 let inquiries = [];
 
+
 // Routes
 app.get("/", (req, res) => {
   res.send("Backend is running without MongoDB...");
